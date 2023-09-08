@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #bdc3c7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #2c3e50,
+    #bdc3c7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #2c3e50,
+    #bdc3c7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, */
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  font-family: "Oxygen", sans-serif;
+}
+#container,
+.blogspace {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  align-items: center;
+  margin: 0 auto;
+}
+.btn {
+  width: 100px;
+  height: 100px;
+  border-radius: 30px;
+  border: none;
+}
+.blogspace {
+  padding: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+form label {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+form input,
+textarea,
+button {
+  outline: none;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
